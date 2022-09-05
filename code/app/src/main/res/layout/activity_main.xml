@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/weather">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAUSAM"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter city name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit"
+        android:textColorHint="@color/black"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="GET WEATHER"
+        android:textSize="20dp"
+        android:onClick="get"/>
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text2"
+        />
+
+</LinearLayout>
